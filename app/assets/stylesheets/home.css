@@ -1,3 +1,15 @@
 body {
-    background-color: #C0C0C0;
+    background-color: lightblue;
+    height: 100%;
+    margin: 50px;
+
+}
+.main {
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+}
+.main div h1 {
+  text-align: center;
+  padding: 5px;
 }
