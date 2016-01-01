@@ -1,15 +1,50 @@
 body {
-    background-color: #c0c0c0;
-    height: 100%;
-    margin: 50px;
+  background-color: white;
 
 }
 .main {
-  background-color: white;
+  margin: auto;
+  background-color: lightblue;
   position: relative;
-  border-radius: 15px;
 }
 .main div h1 {
   text-align: center;
   padding: 5px;
+}
+.menu {
+  background-color: #c0c0c0;
+}
+.menu table {
+  margin: auto;
+}
+.menu table td {
+  width:100px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.bottom-menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-menu li {
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.bottom-menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
