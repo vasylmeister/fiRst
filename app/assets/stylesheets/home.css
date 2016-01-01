@@ -33,6 +33,7 @@ body {
   border-radius: 25px;
 }
 
+
 .bottom-menu ul {
   border-top: 1px solid #636366;
   list-style: none;
@@ -43,13 +44,5 @@ body {
   display: inline;
   line-height: 45px;
   padding-bottom: 3px;
-  padding-left: 20px;
   padding-top: 3px;
-}
-
-.bottom-menu a {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
 }
