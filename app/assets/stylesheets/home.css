@@ -34,15 +34,18 @@ body {
 }
 
 
-.bottom-menu ul {
-  border-top: 1px solid #636366;
-  list-style: none;
-}
 
-.bottom-menu li {
+
+.bottom-menu  {
+  border-top: 1px solid #636366;
   font-family: 'Open Sans', sans-serif;
-  display: inline;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  text-align: center;
+  padding:30px;
+  width: 550px;
+  margin:auto;
+}
+span {
+  margin:5px;
+  padding:3px;
+  text-align: center;
 }
