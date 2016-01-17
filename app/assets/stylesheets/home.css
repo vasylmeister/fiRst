@@ -1,9 +1,10 @@
 body {
   background-color: white;
-
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  
 }
 .main {
-  margin: auto;
   background-color: lightblue;
   padding-top: 20px;
 }
@@ -13,13 +14,11 @@ body {
   width: 500px;
   margin: auto;
 }
-.main div h1 {
-  text-align: center;
-}
 
 .phone-frame {
   background-color: #c0c0c0;
   text-align: center;
+  font-size: 20px;
 
 }
 .menu-screen{
@@ -46,8 +45,8 @@ body {
 
 .bottom-menu  {
   border-top: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+
+
   padding:30px;
   width: 550px;
   margin:auto;
@@ -55,5 +54,15 @@ body {
 span {
   margin:5px;
   padding:3px;
-  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+
+  padding-bottom: 30px;
+}
+ul li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px;
 }
