@@ -19,20 +19,31 @@ body {
 }
 .top-menu-item {
   display: inline;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 40px 0px 40px;
   -background-color: #c0c0c0;
   border-radius: 5px;
   font-weight: bold;
   padding: 10px;
 }
-.top-menu-item:first-child {
-  margin-right: auto;
-}
-.top-menu-item:last-child {
-  margin-left: auto;
-}
+
 .top-menu-item:hover {
   background-color: #c0c0c0;
+}
+.img1 {
+  background-image: url(img1.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 35px;
+  background-color: #c0c0c0;
+  opacity: 0.4;
+}
+.img2 {
+  background-image: url(img2.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 35px;
 }
 
  h1 {
