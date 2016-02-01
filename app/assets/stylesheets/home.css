@@ -44,6 +44,8 @@ body {
   background-size: contain;
   width: 250px;
   height: 35px;
+  background-color: #c0c0c0;
+  opacity: 0.4;
 }
 
  h1 {
