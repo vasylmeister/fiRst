@@ -30,7 +30,7 @@ body {
   background-color: #c0c0c0;
 }
 .img1 {
-  background-image: url(img1.jpeg);
+  background-image: url(img1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 250px;
@@ -39,7 +39,7 @@ body {
   opacity: 0.4;
 }
 .img2 {
-  background-image: url(img2.jpeg);
+  background-image: url(img2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 250px;
