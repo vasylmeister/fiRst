@@ -1,5 +1,5 @@
 body {
-  background-image: url(asset-path("mainbkgr.jpg"));
+  background-image: url(asset-path("mainbkgr2.jpg"));
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffffff;
@@ -12,12 +12,13 @@ body {
 }
 .top-menu {
   font-size: 20px;
-  background-color: #A6A6A6;
-  padding: 20px;
+  background-color: #403C1B;
+  padding: 5px;
   display: flex;
   justify-content: center;
   #border-bottom: 1px solid #ffffff;
-  opacity: 0.8;
+  opacity: 0.7;
+  color:#827D57;
 
 }
 .top-menu-item {
@@ -26,39 +27,25 @@ body {
   -background-color: #c0c0c0;
   border-radius: 5px;
   font-weight: bold;
-  padding: 10px;
-  line-height: 40px;
+  padding: 5px;
+  line-height: 20px;
   vertical-align: middle;
 }
 
 .top-menu-item:hover {
-  background-color: #c0c0c0;
+  background-color: #ffffff;
+  color: #403C1B;
 }
-.img1 {
-  background-image: url(asset-path("img1.jpg"));
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 250px;
-  height: 35px;
-  background-color: #c0c0c0;
-  opacity: 0.4;
-}
-.img2 {
-  background-image: url(asset-path("img2.jpg"));
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 250px;
-  height: 35px;
-  background-color: #c0c0c0;
-  opacity: 0.4;
-}
+
+
 
  h1 {
   padding: 7px;
   border: 2px solid #ffffff;  
-  background-color: #c0c0c0;
+  background-color: #403C1B;
   border-radius: 25px;
   margin: 15px;
+  color: #827D57;
  }
 
 .phone-frame {
@@ -68,7 +55,7 @@ body {
   margin: auto;
   padding-top: 10px;
   padding-bottom: 20px;
-  border: 5px solid #ffffff;
+  border: 5px solid #827D57;
   opacity: 0.8;
 }
 .menu-screen{
@@ -81,22 +68,26 @@ body {
   margin: 15px;
   width: 130px;
   height: 130px;
-  background-color: #c0c0c0;
+  background-color: #403C1B;
   border-radius: 25px;
   line-height: 130px;
   vertical-align: middle;
   border: 2px solid #ffffff;
-  opacity: 0.99;
+  opacity: 0.7;
+  color:#ffffff;
 
 }
 .menu-item:hover {
   background-color: #ffffff;
+  color:#403C1B;
 }
 
 
 .bottom-menu  {
   border-top: 1px solid #636366;
-  background-color: #A6A6A6;
+  background-color: #403C1B;
+  opacity:0.7;
+  color:#ffffff;
 }
 ul {
   list-style-type: none;
